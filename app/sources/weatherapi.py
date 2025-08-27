@@ -1,24 +1,3 @@
-# import requests
-# import os
-# from models.weather import NormalizedWeather
-# from datetime import datetime
-
-# API_KEY = os.getenv("WAPI_API_KEY")
-
-# def fetch_weatherapi_data(city: str) -> NormalizedWeather:
-#     url = f"http://api.weatherapi.com/v1/current.json?key={API_KEY}&q={city}"
-#     res = requests.get(url)
-#     res.raise_for_status()
-#     data = res.json()
-#     return NormalizedWeather(
-#         location=city,
-#         temperature_c=data["current"]["temp_c"],
-#         humidity=data["current"]["humidity"],
-#         source="weatherapi",
-#         timestamp=datetime.strptime(data["location"]["localtime"], "%Y-%m-%d %H:%M"),
-#     )
-
-
 import os
 import requests
 from typing import List

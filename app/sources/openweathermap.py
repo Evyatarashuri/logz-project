@@ -1,24 +1,3 @@
-# import requests
-# import os
-# from models.weather import NormalizedWeather
-# from datetime import datetime, timezone
-
-# API_KEY = os.getenv("OWM_API_KEY")
-
-# def fetch_openweathermap_data(city: str) -> NormalizedWeather:
-#     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
-#     res = requests.get(url)
-#     res.raise_for_status()
-#     data = res.json()
-#     return NormalizedWeather(
-#         location=city,
-#         temperature_c=data["main"]["temp"],
-#         humidity=data["main"]["humidity"],
-#         source="openweathermap",
-#         timestamp=datetime.fromtimestamp(data["dt"], tz=timezone.utc),
-#     )
-
-
 import os
 import requests
 from typing import List
