@@ -64,6 +64,8 @@ CSV_FILE=weather_data.csv
 # Polling
 POLL_INTERVAL=60   # in seconds
 
+link to ChatGPT conversation:
+https://chatgpt.com/share/68aeef5f-9ac0-800b-9def-53e2667b1ec0
 
 # Photos
 
