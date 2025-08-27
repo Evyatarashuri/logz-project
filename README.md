@@ -67,4 +67,4 @@ POLL_INTERVAL=60   # in seconds
 
 # Photos
 
-![logs](photos/login.png)
+![logs](photos/screenshot.png)
